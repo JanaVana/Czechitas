@@ -1,2 +1,2 @@
 import'./ukol1';
-import'./ukol1';
+import'./ukol2';
