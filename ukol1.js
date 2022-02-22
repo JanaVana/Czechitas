@@ -1,4 +1,6 @@
 console.log('ahoj svete');
-let jirik = 54;
+let jirik;
+jirik = 57;
+
 
 console.log(jirik);
