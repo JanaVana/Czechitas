@@ -1,7 +1,8 @@
 
-let dolniMez = Number(prompt('Dolni hranice:'))
-let horniMez = Number(prompt('Horni hranice:'))
+let dolniMez = 0
+let horniMez = Number(promp('Zadej horni mez'));
 
-for(let i = dolniMez; i<= horniMez; i++){
+for(let i = dolniMez;dolniMez<=horniMez; dolniMez ++) {
   console.log(i);
+
 }
