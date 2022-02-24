@@ -1,10 +1,9 @@
-console.log('ahoj');
 
-let jmeno = 'Jana';
-let vek = 25;
-let vaha = 60;
-let vyska = 1.70;
-
-console.log(vaha/vyska**2);
-
-let bmi = vaha/vyska**2
+let soucet = 0
+let cislo = Number(prompt('Zadej cislo:'));
+while(cislo !==0) {
+  soucet += cislo //soucet = soucet + cislo
+  console.log('Zadej cislo' + cislo);
+  console.log('Naakumulovany soucet:' + soucet);
+  cislo = Number(prompt('Zadej cislo:'));
+}
